@@ -7,6 +7,33 @@
     <link rel="shortcut icon" href="images/Logo-Pesat.png" type="image/x-icon">
     <title>Landing Page</title>
     <link rel="stylesheet" href="boostrap-5.3.2/css/bootstrap.min.css">
+    <style>
+      .section1-1 {
+        margin-left: 290px;
+      }
+      .section1-2 {
+        margin-left: 90px;
+      }
+      .ilustration-1 {
+        height: 400px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .section1-1 {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+        }
+        .section1-2 {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+        .ilustration-1 {
+          height: 300px;
+        }
+      }
+    </style>
 </head>
 <body>
 <header class="container-fluid p-0">
@@ -56,20 +83,25 @@
       </nav>
 </header>
 <main class="container-fluid">
-  <section class="row">
-    <div class="col">
-      <div class="card">
-        <div class="card-header">a</div>
-        <div class="card-body">a</div>
-        <div class="card-footer">a</div>
+  <section class="row bg-primary text-white py-5">
+      <div class="col-sm-6 order-md-last">
+        <div class="section1-2">
+          <img src="images/tv-guy-svg-illustration-free.svg" alt="ilustration-1" class="ilustration-1">
+        </div>
       </div>
-    </div>
+      <div class="col-sm-6">
+        <div class="section1-1">
+          <h1 class="mb4">Lorem ipsum dolor sit amet consectetur.</h1>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias earum vero ut tenetur tempora laudantium!</P>
+          <button class="btn btn-lg btn-warning mt-4">Button</button>
+        </div>
+      </div>
   </section>
 </main>
-<footer class="container-fluid">
+<footer class="container-fluid py-2 bg-black text-warning">
   <div class="row justify-content-between">
-    <div class="col">a</div>
-    <div class="col">b</div>
+    <div class="col-sm-6">Copyright &copy; pesat 2023</div>
+    <div class="col-sm-6 text-end">Powered By Studentday Web Design</div>
   </div>
 </footer>
 <script src="boostrap-5.3.2/js/bootstrap.bundle.min.js"></script>
