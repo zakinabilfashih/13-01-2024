@@ -18,8 +18,54 @@
       .ilustration-1 {
         height: 400px;
       }
+      .ilustration-3 {
+        height: 250px;
+      }
       .section-bg-custom {
         background-color: #e4efff;
+      }
+      .nav-tabs {
+        --bs-nav-tabs-border-color: #fff;
+        --bs-nav-tabs-link-active-border-color: #fff #fff #000;
+      }
+      .link-tab-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .02em;
+        line-height: 1.688rem;
+        margin-bottom: 0.4rem;
+      }
+      .link-tab-desc {
+        font-size: 1rem;
+        letter-spacing: .005em;
+        line-height: 1.5rem;
+        margin-bottom: 0.8rem;
+      }
+      .icon-quote {
+        font-size: 6em;
+        color: #4f96ff;
+        margin-left: -16px;
+      }
+      .quote {
+        margin-top: -20px;
+        margin-right: 100px;
+        color: #717b8a;
+        font-size: 1.75rem;
+        letter-spacing: .02em;
+        line-height: 2.875rem;
+      }
+      .picture-tab-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .02em;
+        line-height: 1.688rem;
+        color: #686868;
+      }
+      .picture-tab-desc {
+        font-size: 1rem;
+        letter-spacing: .005em;
+        line-height: 1.5rem;
+        color: #686868;
       }
 
       @media only screen and (max-width: 600px) {
@@ -33,8 +79,26 @@
           margin-right: auto;
           text-align: center;
         }
+        .section5-1 {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
         .ilustration-1 {
           height: 300px;
+        }
+        .ilustration-2 {
+          width: 240px;
+          margin-bottom: 20px;
+        }
+        .ilustration-3 {
+          height: 200px;
+          margin-bottom: 20px;
+        }
+        #footer-copyright {
+          text-align: center;
+        }
+        #footer-powered {
+          text-align: center !important;
         }
       }
     </style>
@@ -253,7 +317,222 @@
             </div>
           </div>
         </div>
+        <div class="col-sm-2">
+          <div class="card border-warning">
+            <div class="card-header">Card Header</div>
+            <div class="card-body" style="text-align: left;">
+              <h5>Title Card 3</h5>
+              <small class="text-muted">Lorem ipsum dolor sit amet consectetur</small>
+              <div class="my-4">
+                <div class="badge bg-success">badge</div>
+              </div>
+              <h4><div class="text-warning" style="display: inline;">Warning</div> Text</h4>
+              <div class="text-center my-4">
+                <button class="btn btn-outline-warning">Button Card</button>
+              </div>
+              <div class="text-muted">Flex Row</div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                  </div>
+                  <div class="p-2">Bootstrap Icon</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                  </div>
+                  <div class="p-2">Bootstrap Icon</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-x-circle-fill" style="color: #e20000;"></i>
+                  </div>
+                  <div class="p-2">Bootstrap Icon</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <hr>
+              <div class="text-center">
+                <button class="btn btn-primary">Button</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body" style="text-align: left;">
+              <h5>Title Card 4</h5>
+              <small class="text-muted">Lorem ipsum dolor sit amet consectetur</small>
+              <div class="my-4">
+                <div class="badge bg-success">badge</div>
+              </div>
+              <h4><div class="text-warning" style="display: inline;">Warning</div> Text</h4>
+              <div class="text-center my-4">
+                <button class="btn btn-outline-warning">Button Card</button>
+              </div>
+              <div class="text-muted">Flex Row</div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                  </div>
+                  <div class="p-2">Bootstrap Icon</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                  </div>
+                  <div class="p-2">Bootstrap Icon</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-x-circle-fill" style="color: #e20000;"></i>
+                  </div>
+                  <div class="p-2">Bootstrap Icon</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <hr>
+              <div class="text-center">
+                <button class="btn btn-primary">Button</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+  <section class="row section-bg-cutom justify-content-center py-5">
+    <div class="col-sm-8">
+      <div class="card bg-primary text-light">
+        <div class="card-body">
+          <div class="row p-4">
+            <div class="col-sm-6 order-md-last text-center">
+              <img src="images/woman_working_1.svg" alt="ilustration-2" class="ilustration-2">
+            </div>
+            <div class="col-sm-6">
+              <h1 class="mb-4">Lorem ipsum dolor sit amet consectetur.</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis officia veritatis odit, saepe repellendus accusantium temporibus, ipsum voluptatibus unde consequuntur, magni molestias voluptates illum quidem!</p>
+              <button class="btn btn-lg btn-warning mt-4">Button Section</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row section-bg-custom justify-content-center py-5">
+    <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-6 text-center">
+          <img src="images/youtube_illustration.svg" alt="ilustration-3" class="ilustration-3">
+        </div>
+        <div class="col-sm-6 section5-1">
+          <h5 class="text-muted">Lorem, ipsum.</h5>
+          <h1>Lorem ipsum dolor sit.</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem deserunt ex doloribus neque beatae cum blanditiis sint possimus, enim perspiciatis veritatis nulla aperiam dolore vel minus autem expedita hic similique veniam esse tempora sit quod.</p>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-sm-6 text-center order-md-last">
+          <img src="images/catp_computer_illustration.svg" alt="ilustration-4" class="ilustration-3">
+        </div>
+        <div class="col-sm-6 section5-1">
+          <h5 class="text-muted">Lorem, ipsum dolor.</h5>
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sunt voluptate temporibus quibusdam enim excepturi error tempore inventore eveniet, doloremque aperiam facere ipsa, impedit, numquam fugit sint! Hic, ipsum deserunt!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 text-center">
+          <img src="images/monitor.svg" alt="ilustration-5" class="ilustration-3">
+        </div>
+        <div class="col-sm-6 section5-1">
+          <h5 class="text-muted">Lorem, ipsum dolor.</h5>
+          <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem minus, hic neque incidunt illum eum illo, ad itaque aspernatur facere sed ab dicta esse? Quasi perspiciatis officia molestiae eligendi nostrum officiis. Pariatur repudiandae quam possimus?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row justify-content-center py-5">
+    <div class="col-sm-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+          <div class="row">
+            <div class="col-sm-8">
+              <i class="bi bi-quote icon-quote"></i>
+              <div class="quote mb-5">
+                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam beatae dicta dolore atque corporis inventore, perspiciatis fugit!"
+              </div>
+              <button class="btn btn-lg btn-warning text-primary">Button Quote</button>
+            </div>  
+            <div class="col-sm-4">
+              <img src="images/Person-bounding-box-icon-vector-01.svg" alt="" class="img-fluid">
+              <p class="picture-tab-title text-center mt-3 mb-1">Lorem, ipsum dolor</p>
+              <p class="picture-tab-desc text-center">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+          Konten Profile
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+          Konten Contact
+        </div>
+      </div>
+      <nav class="mt-5">
+        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+            <p class="link-tab-title">Lorem, ipsum dolor</p>
+            <p class="link-tab-desc">Lorem ipsum dolor sit amet</p>
+          </button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+            <p class="link-tab-title">Lorem ipsum dolor sit</p>
+            <p class="link-tab-desc">Lorem, ipsum dolor</p>
+          </button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+            <p class="link-tab-title">Lorem, ipsum</p>
+            <p class="link-tab-desc">Lorem ipsum dolor sit</p>
+          </button>
+        </div>
+      </nav>
     </div>
   </section>
 </main>
